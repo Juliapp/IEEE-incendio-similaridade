@@ -46,7 +46,7 @@ def mesToStr(mes):
 
 def populateDataset(aqm, foco, ano, mes, bioma, num):
     COLUMN_NAMES=['latitude','longitude','bioma','area(m²)','diasemchuva','precipitacao','riscofogo']
-    df = pd.DataFrame(columns=COLUMN_NAMES)
+    df = pd.DataFrame(columns=COLUMN_NAMES)    
     count = 0;
     lenght = len(aqm)
     
